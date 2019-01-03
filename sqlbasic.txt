@@ -1,0 +1,24 @@
+Select * (view kolom)
+From nama_table (dari db)
+Limit (batasi yang akan di tampilkan)
+Order by (sort by desc, asc)
+Where (untuk kondisi tertentu)
+Example :
+Select * from table_data
+Where jumlah>0
+Order by nama DESC
+Limit 10
+ 
+Like cari yang seperti
+Command :
+Where nama LIKE ‘%google%’
+NOT – bukan, kecuali
+Command:
+Where nama LIKE ‘%google’
+AND – filter 2 kondisi yang sama/bener
+Command:
+Where id_pel=1001 AND sales_id=333
+OR– filter jika salah satu  kondisi yang sama/bener
+Command:
+Where id_pel=1001 OR sales_id=333
+
