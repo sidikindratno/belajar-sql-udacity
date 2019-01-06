@@ -1,0 +1,2 @@
+AGGREGATION - rol-level data untuk pengumpulan/filter jadi lebih mudah
+NULL - tidak ada data (tapi bukan kosong / space)

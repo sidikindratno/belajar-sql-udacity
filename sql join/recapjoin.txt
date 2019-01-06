@@ -1,0 +1,15 @@
+JOIN - tarik multiple table
+expale:
+select namatabel1.colomtb1, namatabel2.colomtb2 (data yang ingin di pull)
+from namatabel1
+JOIN namatabel2
+ON namatabel1.id_namatabel2=namatabel2.id;
+
+Pengenalan Primary Key dan Foreign Key
+
+ALIAS - untuk menyingkat penulisan
+ expale
+ namatabel1 AS tb1;
+
+ LEFT and RIGHT -- > JOIN table berdasarkan gabungan tabel kolom kiri dan kanan
+ 
